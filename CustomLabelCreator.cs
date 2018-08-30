@@ -56,6 +56,9 @@ namespace SharpPDFLabel
                 case Enums.PageSize.A4:
                     pageSize = iTextSharp.text.PageSize.A4;
                     break;
+                case Enums.PageSize.Letter:
+                    pageSize = iTextSharp.text.PageSize.LETTER;
+                    break;
                 default:
                     pageSize = iTextSharp.text.PageSize.A4;
                     break;
